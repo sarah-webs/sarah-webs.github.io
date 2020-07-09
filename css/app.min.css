@@ -11434,7 +11434,7 @@ body[data-page=lovewins] .hashtag-footer .right {
 .bottom-left {
     position: absolute;
     bottom: 50px;
-    left: 16px;
+    left: 0px;
     font-family: Superior Title Light;
     font-weight: 300;
     letter-spacing: 0.225em;
