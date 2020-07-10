@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
   <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<meta property="og:title" content="Sarah Price" />
-<meta property="og:type" content="website" />
+  <meta property="og:title" content="Sarah Price" />
+  <meta property="og:type" content="website" />
   <link rel="icon" href="/favicon.ico" type="image/ico">
-<link type="text/css" rel="stylesheet" href="./css/app.min.css">
-<script src="./js/vendor.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="./css/app.min.css">
+  <script src="./js/vendor.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -17,8 +17,8 @@
 <body data-page="100happydays">
 <div id="page" class="hashtag-100happydays">
   <div class="story-nav">
-    <div class="prev inactive"><span class="icon-left-arrow"></span></div>
-    <div class="next animate"><span class="text start fboldup">The Story</span> &nbsp;<span class="icon-right-arrow"></span> <span class="text end fboldup hidden">The Beginning</span></div>
+    <div class="prev inactive" onclick= PauseMusic()><span class="icon-left-arrow"></span></div>
+    <div class="next animate" onclick=PauseMusic()><span class="text start fboldup">The Story</span> &nbsp;<span class="icon-right-arrow"></span> <span class="text end fboldup hidden">The Beginning</span></div>
   </div>
   <div class="pages">
     <section class="page-wrap hero">
@@ -49,9 +49,8 @@
         <div class="inner-wrapper">
           <div class="center-align">
             <div class="content-wrap text-center">
-              <h2>Childhood years</h2>
-              <audio id = 'sun' src="audio/still-sun.mp3" preload="auto"></audio>
-              <btn onclick= PlaySound("audio/still-sun.mp3") class="music-btn"><i class="fa fa-music"></i>
+              <h2>Primary School</h2>
+              <btn  class="music-btn" onclick= PlaySound("audio/still-sun.mp3")><i class="fa fa-music"></i>
               <span>Still Sun</span></btn>
             </div>
           </div>
@@ -66,7 +65,7 @@
                   <img src="./img/swim-sarah.jpg" />
 <!--                  <p class="bottom-left">1997 <br> JUNE 10</p>-->
                 </div>
-                <p>"Quote from one of her family members"</p>
+                <p>"Sarah, the scuba donkey, never failed to just keep swimming"</p>
               </a>
             </div>
           </div>
@@ -77,10 +76,8 @@
       <div class="left-col">
         <div class="inner-wrapper">
           <div class="center-align">
-            <div class="content-wrap">
-              <p class="mb-3">"Quote from family member"</p>
-              <audio id = 'sweet' src="audio/still-sun.mp3" preload="auto"></audio>
-              <btn class="music-btn" onclick= PlaySound("audio/still-sun.mp3")><i class="fa fa-music"></i>
+            <div class="content-wrap text-center">
+              <btn class="music-btn" onclick= PlaySound("./audio/sweet.mp3")><i class="fa fa-music"></i>
                 <span>Sweet But a Psycho</span></btn>
             </div>
           </div>
@@ -94,7 +91,6 @@
               <div class="img-wrap"><img src="./img/sarah-sunglases.jpg" />
                 <p class="bottom-left">2009 <br> NOV. 9</p>
               </div>
-              <p>Coolest kid on the block</p>
             </div>
           </div>
         </div>
@@ -106,9 +102,8 @@
           <div class="center-align">
             <div class="content-wrap text-center">
               <h2>High School Years</h2>
-              <audio src="audio/still-sun.mp3" preload="auto"></audio>
-              <btn onclick= PlaySound("audio/still-sun.mp3") class="music-btn"><i class="fa fa-music"></i>
-                <span>doo be doo</span></btn>
+              <btn onclick= PlaySound("./audio/still-sun.mp3") class="music-btn"><i class="fa fa-music"></i>
+                <span>Doo Be Doo</span></btn>
             </div>
           </div>
         </div>
@@ -147,8 +142,10 @@
       <div class="left-col">
         <div class="inner-wrapper">
           <div class="center-align">
-            <div class="content-wrap">
+            <div class="content-wrap text-center">
               <h2>USC!</h2>
+              <btn onclick= PlaySound("./audio/usc.mp3") class="music-btn"><i class="fa fa-music"></i>
+                <span>bitch i go to usc</span></btn>
             </div>
           </div>
         </div>
@@ -193,7 +190,8 @@
           <div class="center-align">
             <div class="content-wrap">
               <h2>Got into USC Viterbi!!</h2>
-              <p class="bottom-left">2016 <br> JUNE 20</p>
+              <btn onclick= PlaySound("./audio/fight-on.mp3") class="music-btn"><i class="fa fa-music"></i>
+                <span>fight on</span></btn>
             </div>
           </div>
         </div>
@@ -202,7 +200,8 @@
         <div class="inner-wrapper">
           <div class="center-align">
             <div class="content-wrap">
-              <div class="img-wrap"><img src="./img/13502091_10204771922338246_3226435766264003198_n.jpg" /></div>
+              <div class="img-wrap"><img src="./img/13502091_10204771922338246_3226435766264003198_n.jpg" />
+                <p class="bottom-left">2016 <br> JUNE 20</p></div>
               <p> “Very proud of my daughter Sarah who will start her second year at USC, having now been accepted into the Viterbi school of engineering. Hard work and persistence has rewarded you!” </p>
             </div>
           </div>
@@ -244,8 +243,7 @@
           <div class="center-align">
             <div class="content-wrap">
 <!--              <a href="https://www.instagram.com/p/5SKWQiAMHI/?taken-by=dimochkino" target="_blank">-->
-                <div class="img-wrap"><img src="" /></div>
-<!--                <span class="credit"><span class="icon-instagram"></span> Dmitry Golubnichy</span>-->
+                <div class="img-wrap"><img src="./img/20116901_1368107369910066_1337448395448543761_o.jpg" /></div>
               </a>
             </div>
           </div>
