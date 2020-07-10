@@ -17,8 +17,8 @@
 <body data-page="100happydays">
 <div id="page" class="hashtag-100happydays">
   <div class="story-nav">
-    <div class="prev inactive" onclick= PauseMusic()><span class="icon-left-arrow"></span></div>
-    <div class="next animate" onclick=PauseMusic()><span class="text start fboldup">The Story</span> &nbsp;<span class="icon-right-arrow"></span> <span class="text end fboldup hidden">The Beginning</span></div>
+    <div class="prev inactive" onclick="PauseMusic()"><span class="icon-left-arrow"></span></div>
+    <div class="next animate" onclick="PauseMusic()"><span class="text start fboldup">The Story</span> &nbsp;<span class="icon-right-arrow"></span> <span class="text end fboldup hidden">The Beginning</span></div>
   </div>
   <div class="pages">
     <section class="page-wrap hero">
@@ -50,7 +50,8 @@
           <div class="center-align">
             <div class="content-wrap text-center">
               <h2>Primary School</h2>
-              <btn  class="music-btn" onclick= PlaySound("audio/still-sun.mp3")><i class="fa fa-music"></i>
+              <audio id="song"><source id="sourceMp3" type="audio/mp3"></audio>
+              <btn  class="music-btn" onclick= 'PlaySound(sun)'><i class="fa fa-music"></i>
               <span>Still Sun</span></btn>
             </div>
           </div>
@@ -77,8 +78,8 @@
         <div class="inner-wrapper">
           <div class="center-align">
             <div class="content-wrap text-center">
-              <btn class="music-btn" onclick= PlaySound("./audio/sweet.mp3")><i class="fa fa-music"></i>
-                <span>Sweet But a Psycho</span></btn>
+              <btn class="music-btn" onclick= 'PlaySound(sweet)'><i class="fa fa-music"></i>
+                <span>sweet but a psycho</span></btn>
             </div>
           </div>
         </div>
@@ -102,8 +103,8 @@
           <div class="center-align">
             <div class="content-wrap text-center">
               <h2>High School Years</h2>
-              <btn onclick= PlaySound("./audio/still-sun.mp3") class="music-btn"><i class="fa fa-music"></i>
-                <span>Doo Be Doo</span></btn>
+              <btn onclick= "PlaySound(doo)" class="music-btn"><i class="fa fa-music"></i>
+                <span>doo be doo</span></btn>
             </div>
           </div>
         </div>
@@ -144,7 +145,7 @@
           <div class="center-align">
             <div class="content-wrap text-center">
               <h2>USC!</h2>
-              <btn onclick= PlaySound("./audio/usc.mp3") class="music-btn"><i class="fa fa-music"></i>
+              <btn onclick= "PlaySound(usc)" class="music-btn"><i class="fa fa-music"></i>
                 <span>bitch i go to usc</span></btn>
             </div>
           </div>
@@ -190,7 +191,7 @@
           <div class="center-align">
             <div class="content-wrap">
               <h2>Got into USC Viterbi!!</h2>
-              <btn onclick= PlaySound("./audio/fight-on.mp3") class="music-btn"><i class="fa fa-music"></i>
+              <btn onclick= "PlaySound(fight)" class="music-btn"><i class="fa fa-music"></i>
                 <span>fight on</span></btn>
             </div>
           </div>
