@@ -1397,7 +1397,7 @@ header .right .row.credit .fboldup {
 }
 
 .hashtag-footer a:hover,.hashtag-footer a:hover span,.hashtag-header a:hover,.hashtag-header a:hover span {
-    color: #000
+    color: white;
 }
 
 .hashtag-footer {
