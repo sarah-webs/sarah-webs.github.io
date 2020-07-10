@@ -1,58 +1,58 @@
-/*@font-face {*/
-/*    font-family: calluna_regular;*/
-/*    src: url(../fonts/Calluna/calluna-regular-webfont.eot);*/
-/*    src: url(../fonts/Calluna/calluna-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/Calluna/calluna-regular-webfont.woff2) format("woff2"),url(../fonts/Calluna/calluna-regular-webfont.woff) format("woff"),url(../fonts/Calluna/calluna-regular-webfont.ttf) format("truetype"),url(../fonts/Calluna/calluna-regular-webfont.svg#callunaregular) format("svg");*/
-/*    font-weight: 400;*/
-/*    font-style: normal*/
-/*}*/
+@font-face {
+    font-family: calluna_regular;
+    src: url(../fonts/Calluna/calluna-regular-webfont.eot);
+    src: url(../fonts/Calluna/calluna-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/Calluna/calluna-regular-webfont.woff2) format("woff2"),url(../fonts/Calluna/calluna-regular-webfont.woff) format("woff"),url(../fonts/Calluna/calluna-regular-webfont.ttf) format("truetype"),url(../fonts/Calluna/calluna-regular-webfont.svg#callunaregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
 
-/*@font-face {*/
-/*    font-family: freightsans_blackregular;*/
-/*    src: url(../fonts/FreightSans/freightsans_black-webfont.eot);*/
-/*    src: url(../fonts/FreightSans/freightsans_black-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/FreightSans/freightsans_black-webfont.woff2) format("woff2"),url(../fonts/FreightSans/freightsans_black-webfont.woff) format("woff"),url(../fonts/FreightSans/freightsans_black-webfont.ttf) format("truetype"),url(../fonts/FreightSans/freightsans_black-webfont.svg#freightsans_blackregular) format("svg");*/
-/*    font-weight: 400;*/
-/*    font-style: normal*/
-/*}*/
+@font-face {
+    font-family: freightsans_blackregular;
+    src: url(../fonts/FreightSans/freightsans_black-webfont.eot);
+    src: url(../fonts/FreightSans/freightsans_black-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/FreightSans/freightsans_black-webfont.woff2) format("woff2"),url(../fonts/FreightSans/freightsans_black-webfont.woff) format("woff"),url(../fonts/FreightSans/freightsans_black-webfont.ttf) format("truetype"),url(../fonts/FreightSans/freightsans_black-webfont.svg#freightsans_blackregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
 
-/*@font-face {*/
-/*    font-family: freightsans_boldregular;*/
-/*    src: url(../fonts/FreightSans/freightsans-bold-webfont.eot);*/
-/*    src: url(../fonts/FreightSans/freightsans-bold-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/FreightSans/freightsans-bold-webfont.woff2) format("woff2"),url(../fonts/FreightSans/freightsans-bold-webfont.woff) format("woff"),url(../fonts/FreightSans/freightsans-bold-webfont.ttf) format("truetype"),url(../fonts/FreightSans/freightsans-bold-webfont.svg#freightsans_boldregular) format("svg");*/
-/*    font-weight: 400;*/
-/*    font-style: normal*/
-/*}*/
+@font-face {
+    font-family: freightsans_boldregular;
+    src: url(../fonts/FreightSans/freightsans-bold-webfont.eot);
+    src: url(../fonts/FreightSans/freightsans-bold-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/FreightSans/freightsans-bold-webfont.woff2) format("woff2"),url(../fonts/FreightSans/freightsans-bold-webfont.woff) format("woff"),url(../fonts/FreightSans/freightsans-bold-webfont.ttf) format("truetype"),url(../fonts/FreightSans/freightsans-bold-webfont.svg#freightsans_boldregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
 
-/*@font-face {*/
-/*    font-family: freightsans_bookregular;*/
-/*    src: url(../fonts/FreightSans/freightsans_book-webfont.eot);*/
-/*    src: url(../fonts/FreightSans/freightsans_book-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/FreightSans/freightsans_book-webfont.woff2) format("woff2"),url(../fonts/FreightSans/freightsans_book-webfont.woff) format("woff"),url(../fonts/FreightSans/freightsans_book-webfont.ttf) format("truetype"),url(../fonts/FreightSans/freightsans_book-webfont.svg#freightsans_lightregular) format("svg");*/
-/*    font-weight: 400;*/
-/*    font-style: normal*/
-/*}*/
+@font-face {
+    font-family: freightsans_bookregular;
+    src: url(../fonts/FreightSans/freightsans_book-webfont.eot);
+    src: url(../fonts/FreightSans/freightsans_book-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/FreightSans/freightsans_book-webfont.woff2) format("woff2"),url(../fonts/FreightSans/freightsans_book-webfont.woff) format("woff"),url(../fonts/FreightSans/freightsans_book-webfont.ttf) format("truetype"),url(../fonts/FreightSans/freightsans_book-webfont.svg#freightsans_lightregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
 
-/*@font-face {*/
-/*    font-family: freightsans_mediumregular;*/
-/*    src: url(../fonts/FreightSans/freightsans_medium-webfont.eot);*/
-/*    src: url(../fonts/FreightSans/freightsans_medium-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/FreightSans/freightsans_medium-webfont.woff2) format("woff2"),url(../fonts/FreightSans/freightsans_medium-webfont.woff) format("woff"),url(../fonts/FreightSans/freightsans_medium-webfont.ttf) format("truetype"),url(../fonts/FreightSans/freightsans_medium-webfont.svg#freightsans_mediumregular) format("svg");*/
-/*    font-weight: 400;*/
-/*    font-style: normal*/
-/*}*/
+@font-face {
+    font-family: freightsans_mediumregular;
+    src: url(../fonts/FreightSans/freightsans_medium-webfont.eot);
+    src: url(../fonts/FreightSans/freightsans_medium-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/FreightSans/freightsans_medium-webfont.woff2) format("woff2"),url(../fonts/FreightSans/freightsans_medium-webfont.woff) format("woff"),url(../fonts/FreightSans/freightsans_medium-webfont.ttf) format("truetype"),url(../fonts/FreightSans/freightsans_medium-webfont.svg#freightsans_mediumregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
 
-/*@font-face {*/
-/*    font-family: bebas_neue_regular;*/
-/*    src: url(../fonts/Bebas/bebasneue_regular-webfont.eot);*/
-/*    src: url(../fonts/Bebas/bebasneue_regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/Bebas/bebasneue_regular-webfont.woff2) format("woff2"),url(../fonts/Bebas/bebasneue_regular-webfont.woff) format("woff"),url(../fonts/Bebas/bebasneue_regular-webfont.ttf) format("truetype"),url(../fonts/Bebas/bebasneue_regular-webfont.svg#bebas_neue_regularregular) format("svg");*/
-/*    font-weight: 400;*/
-/*    font-style: normal*/
-/*}*/
+@font-face {
+    font-family: bebas_neue_regular;
+    src: url(../fonts/Bebas/bebasneue_regular-webfont.eot);
+    src: url(../fonts/Bebas/bebasneue_regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/Bebas/bebasneue_regular-webfont.woff2) format("woff2"),url(../fonts/Bebas/bebasneue_regular-webfont.woff) format("woff"),url(../fonts/Bebas/bebasneue_regular-webfont.ttf) format("truetype"),url(../fonts/Bebas/bebasneue_regular-webfont.svg#bebas_neue_regularregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
 
-/*@font-face {*/
-/*    font-family: bebas_neuebold;*/
-/*    src: url(../fonts/Bebas/bebasneue_bold-webfont.eot);*/
-/*    src: url(../fonts/Bebas/bebasneue_bold-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/Bebas/bebasneue_bold-webfont.woff2) format("woff2"),url(../fonts/Bebas/bebasneue_bold-webfont.woff) format("woff"),url(../fonts/Bebas/bebasneue_bold-webfont.ttf) format("truetype"),url(../fonts/Bebas/bebasneue_bold-webfont.svg#bebas_neuebold) format("svg");*/
-/*    font-weight: 400;*/
-/*    font-style: normal*/
-/*}*/
+@font-face {
+    font-family: bebas_neuebold;
+    src: url(../fonts/Bebas/bebasneue_bold-webfont.eot);
+    src: url(../fonts/Bebas/bebasneue_bold-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/Bebas/bebasneue_bold-webfont.woff2) format("woff2"),url(../fonts/Bebas/bebasneue_bold-webfont.woff) format("woff"),url(../fonts/Bebas/bebasneue_bold-webfont.ttf) format("truetype"),url(../fonts/Bebas/bebasneue_bold-webfont.svg#bebas_neuebold) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
 
 @font-face {
     font-family: besom_2regular;
